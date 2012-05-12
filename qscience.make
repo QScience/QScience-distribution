@@ -21,9 +21,9 @@ projects[] = macro
 projects[] = date
 projects[] = pathauto
 
-projects[patterns_profile][type] = "profile"
-;projects[patterns_profile][destination] = profiles
-;projects[patterns_profile][directory_name] = patterns
+projects[qscience_profile][type] = "profile"
+projects[qscience_profile][download][type] = "git"
+projects[qscience_profile][download][url] = "git://github.com/QScience/QScience-profile.git"
 
 projects[patterns][type] = "module"
 projects[patterns][version] = 1.x-dev
