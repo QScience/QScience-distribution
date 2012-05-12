@@ -18,14 +18,17 @@ projects[] = libraries
 ;projects[] = patterns
 projects[] = macro
 
+projects[] = date
+projects[] = pathauto
 
-projects[patterns_profile][destination] = profiles
-projects[patterns_profile][directory_name] = patterns
+projects[patterns_profile][type] = "profile"
+;projects[patterns_profile][destination] = profiles
+;projects[patterns_profile][directory_name] = patterns
 
 projects[patterns][type] = "module"
-projects[patterns][download][type] = "git"
-projects[patterns][download][url] = "git://github.com/QScience/Patterns.git"
-projects[patterns][download][branch] = "csko_test"
+projects[patterns][version] = 1.x-dev
+;projects[patterns][download][type] = "git"
+;projects[patterns][download][url] = "git://github.com/QScience/Patterns.git"
 
 projects[visualscience][type] = "module"
 projects[visualscience][download][type] = "git"
@@ -47,6 +50,10 @@ projects[drupaltodrupal][type] = "module"
 projects[drupaltodrupal][download][type] = "git"
 projects[drupaltodrupal][download][url] = "git://github.com/QScience/drupaltodrupal.git"
 
+projects[qscience][type] = "module"
+projects[qscience][download][type] = "git"
+projects[qscience][download][url] = "git://github.com/QScience/QScience.git"
+
 projects[userlist][type] = "module"
 projects[userlist][download][type] = "git"
 projects[userlist][download][url] = "git://github.com/QScience/UserList.git"
@@ -63,3 +70,4 @@ libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url]= "http://codemirror.net/codemirror.zip"
 libraries[codemirror][directory_name] = "codemirror"
 libraries[codemirror][destination] = "libraries"
+
