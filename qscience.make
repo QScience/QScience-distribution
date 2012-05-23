@@ -68,6 +68,6 @@ libraries[spyc][destination] = "libraries"
 
 libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url]= "http://codemirror.net/codemirror.zip"
-libraries[codemirror][directory_name] = "codemirror"
+libraries[codemirror][directory_name] = "codemirror2"
 libraries[codemirror][destination] = "libraries"
 
