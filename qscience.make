@@ -50,10 +50,9 @@ projects[drupaltodrupal][type] = "module"
 projects[drupaltodrupal][download][type] = "git"
 projects[drupaltodrupal][download][url] = "git://github.com/QScience/drupaltodrupal.git"
 
-
-projects[qscience][type] = "module"
-projects[qscience][download][type] = "git"
-projects[qscience][download][url] = "git://github.com/QScience/arxiv.git"
+projects[arxiv][type] = "module"
+projects[arxiv][download][type] = "git"
+projects[arxiv][download][url] = "git://github.com/QScience/arxiv.git"
 
 projects[qscience][type] = "module"
 projects[qscience][download][type] = "git"
