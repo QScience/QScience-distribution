@@ -70,9 +70,13 @@ projects[pils][type] = "module"
 projects[pils][download][type] = "git"
 projects[pils][download][url] = "git://github.com/QScience/pils.git"
 
-projects[pattern_server][type] = "module"
-projects[pattern_server][download][type] = "git"
-projects[pattern_server][download][url] = "git://github.com/QScience/patterns_server.git“
+projects[patterns_server][type] = "module"
+projects[patterns_server][download][type] = "git"
+projects[patterns_server][download][url] = "git://github.com/QScience/patterns_server.git“
+
+projects[patterns_client][type] = "module"
+projects[patterns_client][download][type] = "git"
+projects[patterns_client][download][url] = "git://github.com/QScience/patterns_client.git“
 
 ; Libraries
 ; ---------
@@ -84,6 +88,6 @@ libraries[spyc][destination] = "libraries"
 
 libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url]= "http://codemirror.net/codemirror.zip"
-libraries[codemirror][directory_name] = "codemirror-3.0"
+libraries[codemirror][directory_name] = "codemirror2"
 libraries[codemirror][destination] = "libraries"
 
