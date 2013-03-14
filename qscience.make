@@ -62,6 +62,18 @@ projects[userlist][type] = "module"
 projects[userlist][download][type] = "git"
 projects[userlist][download][url] = "git://github.com/QScience/UserList.git"
 
+projects[Macro][type] = "module"
+projects[Macro][download][type] = "git"
+projects[Macro][download][url] = "git://github.com/QScience/Macro.git"
+
+projects[pils][type] = "module"
+projects[pils][download][type] = "git"
+projects[pils][download][url] = "git://github.com/QScience/pils.git"
+
+projects[pattern_server][type] = "module"
+projects[pattern_server][download][type] = "git"
+projects[pattern_server][download][url] = "git://github.com/QScience/patterns_server.git“
+
 ; Libraries
 ; ---------
 
